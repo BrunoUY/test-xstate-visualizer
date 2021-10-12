@@ -1,0 +1,17 @@
+app-payment-form {
+    /* Component styles go here */
+    div {
+        width: 80vw;
+
+        margin: 0 auto;
+        padding: 2rem;
+
+        ion-input {
+            border: 1px solid grey;
+            border-radius: 5px;
+        }
+    }
+    div > * {
+        margin: 1rem;
+    }
+}
